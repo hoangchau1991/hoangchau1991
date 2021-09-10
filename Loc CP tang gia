@@ -1,0 +1,5 @@
+_SECTION_BEGIN("Loc CP tang gia");
+dk1 = (C-Ref(C,-1))/Ref(C,-1)*100;
+Filter = dk1>6;
+AddColumn(dk1,"%thay doi gia");
+_SECTION_END();
